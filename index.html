@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        border: 1px solid black;
+        border-right: 4px solid black;
+        
+        border-bottom: 3px solid black;
+        display: flex;
+        height: 60px;
+        justify-content: space-around;
+    }
+    .logo{
+      
+        width: 100px;
+        overflow: hidden;
+    }
+    .logo > img{
+        object-fit: contain;
+        height: 100%;
+        width: 100%;
+    }
+    .left{
+        width: 1100px;
+  
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .left > button{
+        color: red;
+        margin: 5px;
+        background-color: white;
+        border-color: red;
+        border-radius: 5px;
+        border: 1px solid red;
+        width: 70px;
+        height: 40px;
+    }
+    .left > p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        font-weight: bold;
+    }
+    .last{
+        color: blue;
+    }
+    .last i{
+        color: black;
+    }
+</style>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://mma.prnewswire.com/media/1631809/Masai_Logo.jpg?p=facebook" alt="">
+        </div>
+        <div class="left">
+            <p>COURSE&nbsp;&nbsp;<i class="fa-solid fa-angle-down"></i></p>
+            <p>FEES & ISA</p>
+            <p>ABOUT US</p>
+            <p>HIER FROM US</p>
+            <p>FAQ</p>
+            <p>EVENTS</p>
+            <p class="last">REFER AND EARN  <i class="fa-solid fa-hand-holding-heart"></i></p>
+            <button>LOGIN</button>
+        </div>
+
+    </nav>
+    
+</body>
+</html>
